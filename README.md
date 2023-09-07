@@ -18,8 +18,6 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 | id   | name       |
 +------+------------+
 |    1 | samplename |
-|    1 | samplename |
-|    1 | samplename |
 +------+------------+
 ```
 
