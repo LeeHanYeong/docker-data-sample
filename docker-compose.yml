@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  mysql:
+    build:
+      context: .
+    container_name: sample-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 'testpass'
+      MYSQL_USER: 'test'
+      MYSQL_PASS: 'test'
+    ports:
+      - '3306:3306'
